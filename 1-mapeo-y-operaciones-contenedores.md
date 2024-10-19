@@ -37,6 +37,7 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 # Muestra más información de los archivos dentro del directorio. En este caso, mostraba una fecha, otro nombre para cada archivo e información sobre su root.
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COLOCAR UNA CAPTURA DE PANTALLA
+![Comando ls -l](img/P2_Comandols-l.png)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
