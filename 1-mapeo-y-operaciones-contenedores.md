@@ -31,11 +31,11 @@ Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 ```
 docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
-# COMPLETAR
 ### ¿Para qué se usa el comando ls?
+# El comando ls es para ver lo que tiene dentro una dirección. En este caso, mostró una lista de archivos que están dentro del docker.
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+# Muestra más información de los archivos dentro del directorio. En este caso, mostraba una fecha, otro nombre para cada archivo e información sobre su root.
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
-# COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
