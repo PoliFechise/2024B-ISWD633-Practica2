@@ -50,4 +50,4 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 
 
 ### ¿Qué bases de datos existen en el contenedor creado?
-# 
+# Las 4 principales y que vienen por defecto: information_schema, performance_schema, sys y mysql.
