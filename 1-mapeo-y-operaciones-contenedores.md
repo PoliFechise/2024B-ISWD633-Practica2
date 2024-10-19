@@ -95,6 +95,7 @@ docker exec -it <nombre contenedor> <programa o comando>
 # docker exec -it map-puertos3 cat /var/jenkins_home/secrets/initialAdminPassword
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+![Ingreso de Contraseña](img/P2_IngresoContraseña.png)
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
