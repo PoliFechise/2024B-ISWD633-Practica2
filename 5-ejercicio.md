@@ -2,10 +2,10 @@
 ![Imagen](img/esquema-ejercicio5.PNG)
 
 ### Crear la red
-# COMPLETAR
+# docker network create net-wp -d bridge
 
 ### Crear el contenedor mysql a partir de la imagen mysql:8, configurar las variables de entorno necesarias
-# COMPLETAR
+# docker run -d --name docker-mysql2 -e MYSQL_ROOT_PASSWORD=P@ssw0rd -e MYSQL_DATABASE=database -e MYSQL_USER=user -e MYSQL_PASSWORD=P@ssw0rdd mysql:8
 
 ### Crear el contenedor wordpress a partir de la imagen: wordpress, configurar las variables de entorno necesarias
 # COMPLETAR
