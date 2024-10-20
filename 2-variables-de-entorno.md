@@ -13,6 +13,7 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 # docker run -d --name docker-entorno -e username=andres -e role=admin nginx:alpine
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+![Comprobación de la creación de las variables de entorno](img/P2_ComprobarVarEntorno.png)
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
 # docker run -P -d --name docker-mysql mysql:8
@@ -47,7 +48,7 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 # docker run -P -d --name docker-mysql -e MYSQL_ROOT_PASSWORD=P@ssw0rd --env-file=./docker.env mysql:8
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
-
+![Comprobación de la creación de las variables de entorno](img/P2_ComprobarVarEntorno2.png)
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 # Las 4 principales y que vienen por defecto: information_schema, performance_schema, sys y mysql.
