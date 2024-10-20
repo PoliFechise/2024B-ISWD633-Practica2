@@ -57,12 +57,17 @@ docker network ls
 # docker network connect net-curso02 contenedor3
 
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
+# Redes existentes:
 ![Redes existentes](img/P2_RedesCreadas.png)
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
+# Contenedor 1:
 ![Contenedor 1](img/P2_Contenedor1.png)
+# Contenedor 2:
 ![Contenedor 2](img/P2_Contenedor2.png)
+# Contenedor 3:
 ![Contenedor 3](img/P2_Contenedor3.png)
+# Contenedor 4:
 ![Contenedor 4](img/P2_Contenedor4.png)
 
 ### Para eliminar las redes creadas
